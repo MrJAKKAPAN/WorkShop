@@ -1,0 +1,64 @@
+header {
+    background: url('../img/971.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    color: aliceblue;
+    /* height: 500px; */
+    /* width: 100%; */
+}
+
+/* features */
+.features-icons {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.features-icons-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: orangered;
+}
+
+/* showcase */
+.showcase-text {
+    padding: 8rem;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+}
+.showcase-img {
+    background-size: cover;
+    min-height: 30rem;
+}
+
+/* testimonials */
+.testimonials {
+    padding-top:7rem ;
+    padding-bottom: 7rem ;
+}
+.testimonials .testimonials-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 5px #adb5bd;
+}
+
+/* call to Action */
+.call-to-action {
+    background: url('../img/192493-OXNYX8-814.jpg') no-repeat  ;
+    background-size: cover;
+    padding-top:  7rem;
+    padding-bottom: 7rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+/* @media screen and (max-width: 360px) {
+    .showcase-text {
+        padding: 4rem;
+    }
+    .showcase-img {
+        background-size: cover;
+        min-height: 15rem;
+    }
+} */
