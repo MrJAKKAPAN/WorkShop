@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+body {
+    text-align: center ;
+    background: #fdfdfd;
+    line-height: 1.5;
+}
+
+button {
+    display: block;
+    margin:  15px auto;
+}
+
+#facebook {
+    max-width: 60%;
+    margin: 15px auto;
+    padding: 10px;
+}
