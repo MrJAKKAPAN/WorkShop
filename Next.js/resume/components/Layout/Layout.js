@@ -1,13 +1,16 @@
+import HeadLink from'../headLink';
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import OnHeader from "../onHeader/onHeader";
 
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
 
-const Layout = (props) => (
+const layout = ({ children }) => (
   <div>
+    <HeadLink/>
+    <OnHeader />
     <Header />
-        {props.children}
+      {children}
     <Footer />
   </div>
-)
-
-export default Layout
+);
+export default layout
