@@ -1,0 +1,35 @@
+.header-base {
+    font-family: 'Balsamiq Sans', cursive;
+    // overflow: hidden;
+    // display: block;
+    // height: 500px;
+    // margin-left:'30%';
+    background-size: cover;
+    background-position: center;
+}
+@media  screen and (max-width: 990px) {
+    display: none;
+}
+
+.header-info {
+    font-family: 'Balsamiq Sans', cursive;
+    // border: 1px solid red;
+    color: #000000;
+    width: auto;
+    margin-top: 9rem;
+    margin-left: 1rem;
+}   
+.header-info h1 {
+    font-size: 3rem;
+}
+.header-info p {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.header-info a {
+    color: #000;
+    border: 1px solid #000;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
