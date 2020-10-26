@@ -10,7 +10,7 @@ const OnHeader = () => (
       <div className="incontainer">
         
         <div className="flexCenter">
-        <Avatar className="Avatar" alt="jakkapan" src="/image/jakkapan.png"  style={{left:'25%',width:'150px', height:'150px', border:'5px solid #fff' }} />  
+        <Avatar className="Avatar" alt="jakkapan" src="/image/jakkapan.png"  style={{ marginTop:'-25%',left:'25%',width:'150px', height:'150px', border:'5px solid #fff' }} />  
         <p >Jakkapan Sitthikan</p>
         </div>
          

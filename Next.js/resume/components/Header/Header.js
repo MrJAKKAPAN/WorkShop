@@ -7,8 +7,10 @@ export default function MyComponent() {
     <Head>
     <HeadLink/>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+      <link rel="mask-icon" href="./game.png" color="#000" />
+      <title>Jakkapan Sitthikan</title>
     </Head>
-    <nav className="navbar navbar-expand-sm navbar" data-toggle="affix">
+    <nav className="navbar navbar-expand " data-toggle="affix">
     <div className="mx-auto d-sm-flex d-block flex-sm-nowrap">
     <div className="collapse navbar-collapse text-center" id="navbarsExample11">
       <ul className="navbar-nav" style={{ fontFamily: 'Balsamiq Sans'}}>

@@ -5,17 +5,21 @@ const style = {
     bottom: 0,
     left: 0,
     padding: '1rem',
-    backgroundColor: '#2b2a2a',
-    color:'#fff',
+    // backgroundColor: '#2b2a2a',
+    color:'#000',
     textAlign: 'center',
     fontSize:'14px',
     fontFamily: 'Balsamiq Sans',
   }
   
+  const dates = () =>(
+    new Date().getFullYear()
+  ) 
+
   const Footer = () => (
     <div>
       <div style={style}>
-      Copyright ©2020 All Right Reserved by Jakkapn Sitthikan &nbsp;
+      Copyright ©{dates()} &nbsp;All Right Reserved by &nbsp; Jakkapn Sitthikan &nbsp;
       </div>
     </div>
   )
