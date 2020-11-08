@@ -7,21 +7,21 @@ export class Header extends Component {
     return (
       <div>
         <nav className="navbar justify-content-center">
-          <p
-            style={{
-              backgroundColor: "#42D0B2",
-              color: "white",
-              borderRadius: ".25rem",
-              paddingLeft: "8px",
-              paddingRight: "8px",
-            }}
-          >
-            Answer
-          </p>
-          <p>
+          <span style={{ padding: "1%" }}>
+            <span
+              style={{
+                backgroundColor: "#42D0B2",
+                color: "white",
+                borderRadius: ".25rem",
+                padding: "8px",
+                paddingTop: "5px",
+              }}
+            >
+              Answer
+            </span>
             &nbsp; This is an example of how to development lists page from UI
             Design.
-          </p>
+          </span>
         </nav>
       </div>
     );
