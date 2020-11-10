@@ -1,0 +1,17 @@
+.float {
+  float: right;
+}
+.col {
+  margin-top: 5rem;
+}
+.btn {
+  border: 1px solid #e0e0e0;
+  font-size: 12px;
+}
+.active,
+.btn:hover {
+  background-color: #42d0b2;
+  color: white;
+  border: 1px solid #42d0b2;
+  font-size: 12px;
+}

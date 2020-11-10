@@ -1,0 +1,12 @@
+.main-footer {
+  color: rgb(121, 121, 121);
+  background-color: #fafafa;
+  padding: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+  span {
+    color: rgb(0, 0, 0);
+  }
+}

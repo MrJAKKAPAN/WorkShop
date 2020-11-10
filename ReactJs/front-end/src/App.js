@@ -1,32 +1,31 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { connect } from "react-redux";
 import { server, YES } from "./constants";
 import { setApp } from "./store/actions/app.action";
+import "./App.css";
 
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
 import Layout from "./components/Layout/layout";
 import ProductGrids from "./components/productGrids/productGrids";
 import ProductLists from "./components/productLists/productLists";
+import Detail from "./components/detail/detail";
 
-export class App extends Component {
+class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="page-container">
           <Header />
-          <Layout>
+          <div className="content-wrap">
+            <Layout />
             <Switch>
               <Route path="/ProductGrids" component={ProductGrids} />
               <Route path="/ProductLists" component={ProductLists} />
+              <Route path="/Detail/:id" component={Detail} />
             </Switch>
-          </Layout>
+          </div>
           <Footer />
         </div>
       </Router>
