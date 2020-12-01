@@ -3,20 +3,31 @@ import { Link, withRouter } from "react-router-dom";
 import "./layout.css";
 
 class layout extends Component {
+  componentDidMount() {
+    let his = this.props.history;
+    console.log(his);
+  }
+
   render() {
     return (
       <div className="container">
         <div className="row">
-          <div className="col">
+          {/* map */}
+          <div className="col" style={{ marginTop: "5rem" }}>
             <div className="float">
               <div className="btn-group btn-group-toggle" data-toggle="buttons">
-                <Link to="/ProductGrids" className="active btn btn-1">
-                  <input type="radio" name="options" id="option1" checked />
-                  <i class="fas fa-th-large" />
+                <Link to="/ProductGrids" className="btn btn-1 active">
+                  <input
+                    type="radio"
+                    name="option"
+                    id="option1"
+                    defaultChecked
+                  />
+                  <i className="fas fa-th-large" />
                 </Link>
                 <Link to="/ProductLists" className="btn btn-2">
-                  <input type="radio" name="options" id="option2" />
-                  <i class="fas fa-list" />
+                  <input type="radio" name="option" id="option2" />
+                  <i className="fas fa-list" />
                 </Link>
               </div>
             </div>

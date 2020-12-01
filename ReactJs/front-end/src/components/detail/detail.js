@@ -1,5 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 
-export default function Detail() {
-  return <div></div>;
+class detail extends Component {
+  componentDidMount() {
+    const his = this.props.history;
+    console.log(his);
+  }
+  render() {
+    return <div>detail</div>;
+  }
 }
+
+export default detail;

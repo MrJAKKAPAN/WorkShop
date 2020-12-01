@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem;
+}
+.cards:hover {
+  -webkit-box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.67);
+  box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.67);
+}
+.cards > div {
+  padding: 0.2rem;
+}
+.ldiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ldiv img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dfdede;
+  -webkit-box-shadow: 0px 0px 16px -10px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 0px 0px 16px -10px rgba(0, 0, 0, 0.67);
+  box-shadow: 0px 0px 16px -10px rgba(0, 0, 0, 0.67);
+}
+.cdiv {
+  height: 100px;
+}
+.title {
+  font-weight: 600;
+  /* font-size: ; */
+}
+.des {
+  margin-top: 0.4rem;
+  font-size: 12px;
+  width: 80%;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.bl-money {
+  color: #f65b7c;
+  font-weight: 800;
+}
+.btn-buynow {
+  background-color: #42d0b2;
+  color: #f9f9f9;
+  border: none;
+}

@@ -23,7 +23,10 @@ class App extends Component {
             <Switch>
               <Route path="/ProductGrids" component={ProductGrids} />
               <Route path="/ProductLists" component={ProductLists} />
-              <Route path="/Detail/:id" component={Detail} />
+
+              <Route path="/Detail" component={Detail} />
+              <Route exact={true} path="*" component={ProductGrids} />
+              <Route exact={true} path="/" component={ProductGrids} />
             </Switch>
           </div>
           <Footer />
